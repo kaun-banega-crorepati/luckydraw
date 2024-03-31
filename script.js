@@ -56,7 +56,7 @@ function displayDetails(userDetails) {
     <p style="font-size: 14px;">*Dear ${userDetails.name}, Please continue your process by paying your Registration Charge Rs. ${userDetails.registrationCharge} in company bank account.</p>
     <a href = "upi://pay?cu=INR&pa=919951431206@paytm&pn=KBC%20India&tn=&am=${userDetails.registrationCharge}.00" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">PAY NOW</a>
     <p>------------X------------</p>
-    <p style="font-size: 14px;">*For Any Questions or Concerns, You Can Call Helpline No. +91 7849085082.</p>
-    <a href = "tel:+917849085082" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">CALL NOW</a>
+    <p style="font-size: 14px;">*For Any Questions or Concerns, You Can Call Helpline No. +91 9951431206.</p>
+    <a href = "tel:+919951431206" style = "padding: 5px 10px; background: #00c04b; text-decoration: none; color: #fff; border-radius: 5px;">CALL NOW</a>
   `;
 }
