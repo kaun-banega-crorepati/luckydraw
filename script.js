@@ -51,7 +51,7 @@ function displayDetails(userDetails) {
     <p>Lottery Number: ${userDetails.lotteryNumber}</p>
     <p>Prize Name: Tata Nexon</p>
     <p>Prize Amount: RS. ${userDetails.prizeAmount}</p>
-    <p>Registration Fees: RS. <span class="indian-number">${userDetails.registrationCharge}</span></p>
+    <p>${userDetails.feesType}: Rs. <span class="indian-number">${userDetails.registrationCharge}</span></p>
     <!--<p>Sate: <span style="text-transform: capitalize;">${userDetails.state}</span></p>-->
     <p>Prize Status: <span style="color: red;">Not Claimed</span></p>
     <img src="car.jpeg" style="width: 100%; border-radius: 5px; pointer-events: none;"><br><br>
